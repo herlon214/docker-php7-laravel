@@ -1,4 +1,4 @@
-# Docker PHP7 for Laravel 5 (with composer & git)
+# Docker PHP7-fpm for Laravel 5 (with composer & git)
 
 ### Libs
 * mcrypt
