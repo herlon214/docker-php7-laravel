@@ -2,6 +2,7 @@ FROM php:7-fpm
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y libmcrypt-dev
+RUN apt-get install git-core
 RUN docker-php-ext-install bcmath
 RUN apt-get install -y libbz2-dev
 RUN docker-php-ext-install bz2
