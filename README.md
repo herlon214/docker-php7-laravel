@@ -13,3 +13,4 @@ Docker image: `herlon214/docker-php7-laravel`
 ### Utils
 * git
 * composer
+* zip / unzip (fastest composer unpacking)
