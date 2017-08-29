@@ -11,6 +11,7 @@ RUN apt-get install -y libmcrypt-dev
 RUN docker-php-ext-install mcrypt
 RUN apt-get install -y libpq-dev
 RUN apt-get install -y libicu-dev
+RUN docker-php-ext-install mysqli
 RUN docker-php-ext-install pdo
 RUN docker-php-ext-install pdo_mysql
 RUN apt-get install zip unzip
